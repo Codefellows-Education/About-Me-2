@@ -47,7 +47,7 @@ console.log('Do I have kids? ' + kids);
 //fifth question
 var sing = prompt('Do I sing karaoke?');
 
-if(sing.toLowerCase() === 'no' || kids.toLowerCase() === 'n'){
+if(sing.toLowerCase() === 'no' || sing.toLowerCase() === 'n'){
   alert('Right you are! No one wants to hear me sing, trust me.');
 } else {
   alert('WRONG! No matter how drunk you get me, I will never get on that stage.');
