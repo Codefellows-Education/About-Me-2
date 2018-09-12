@@ -26,7 +26,7 @@ console.log('Do I love cats? ' + cats);
 var travel = prompt('Have I ever been out of the cournty?');
 
 if (travel.toLowerCase()==="yes" || travel.toLowerCase()==="y") {
-  alert ('Correct! I\ve alctually travelled all around the world - most recently to Africa');
+  alert ('Correct! I\'ve alctually travelled all around the world - most recently to Africa');
 } else {
   alert('WRONG!');
 }
