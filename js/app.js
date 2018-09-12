@@ -3,7 +3,7 @@
 //first question
 var middle = prompt('Is my middle name Jane?');
 
-if (middle.toLowerCase()==="yes" || middle.toLowerCase()==="y") {
+if (middle.toLowerCase()==='yes' || middle.toLowerCase()==='y') {
   alert('nope - not even close');
 } else {
   alert('Correct! My middle name is Elizabeth');
@@ -14,7 +14,7 @@ console.log('is my middle name Jane? ' + middle);
 //second question
 var cats = prompt('Do I love Cats?');
 
-if (cats.toLowerCase()==="yes" || cats.toLowerCase()==="y") {
+if (cats.toLowerCase()==='yes' || cats.toLowerCase()==='y') {
   alert ('Of course I do! Who doesn\'t love those furry little muffins?');
 } else {
   alert('WRONG! Cats are amazing! What were you thinking?');
@@ -25,7 +25,7 @@ console.log('Do I love cats? ' + cats);
 //third question
 var travel = prompt('Have I ever been out of the cournty?');
 
-if (travel.toLowerCase()==="yes" || travel.toLowerCase()==="y") {
+if (travel.toLowerCase()==='yes' || travel.toLowerCase()==='y') {
   alert ('Correct! I\'ve alctually travelled all around the world - most recently to Africa');
 } else {
   alert('WRONG!');
